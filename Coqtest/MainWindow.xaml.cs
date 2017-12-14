@@ -46,7 +46,7 @@ namespace Coqtest
         private void TextBox_PreviewKeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyboardDevice.IsKeyDown(Key.Down) && e.KeyboardDevice.IsKeyDown(Key.LeftCtrl)) {
-                keepstrings = MainText.Text.Split('\n');
+                //keepstrings = MainText.Text.Split('\n');
             }
 
         }
