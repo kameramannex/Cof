@@ -1,0 +1,17 @@
+﻿<Window x:Class="Coqtest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Coqtest"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <TextBox x:Name="MainText"
+             Margin="10,10,269,12" TextWrapping="Wrap"
+             AcceptsReturn="True"
+             Text="TextBox"
+             Keyboard.PreviewKeyDown="TextBox_PreviewKeyDown" />
+        <TextBox Margin="0,10,10,12" TextWrapping="Wrap" Text="TextBox" HorizontalAlignment="Right" Width="254"/>
+    </Grid>
+</Window>
